@@ -1,0 +1,108 @@
+[General]
+Program name = Epic Adventure
+Program version = 1.0c
+Windows 2000 = 1
+Windows XP = 1
+Windows Server 2003 = 1
+Windows Vista = 1
+Windows Server 2008 = 1
+Windows 7 = 1
+Windows 8 = 1
+Windows Server 2012 = 1
+Company name = 
+Website = 
+SFA = 0
+DFA = 0
+Comp = 1
+[Graphics]
+Wizard image = C:\Program Files (x86)\solicus\InstallForge\Images\Wizard_2.bmp
+Header image = C:\Program Files (x86)\solicus\InstallForge\Images\Header_2.bmp
+Install-icon image = C:\Program Files (x86)\solicus\InstallForge\Images\Header_2.bmp
+Show Label = 1
+Windows style = 1
+XpStyle = 1
+[Files]
+Include Zipfile = 0
+Zipfile = 
+Installation path = C:\EpicAdventure\
+Autcip = 1
+[Uninstall]
+Vwau = 0
+Website = 
+Include uninstaller = 0
+Uninstaller filename = Uninstall
+[Licence]
+Licence dialog = 1
+[Finish]
+Sart program = 1
+Reboot computer = 0
+Execute DLL: = 0
+Program = <installpath>\
+Dll = 
+[Shortcuts]
+Allowtc = 0
+Shortcut path = <company>\<appname>\
+[Serialoptions]
+Allows = 0
+Number = 20
+[SplashScreen]
+Image = C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\Splash.jpg
+Sound = 
+Time = 4
+PlaySound = 0
+Allow = 1
+[Build]
+File = C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\INSTALL.exe
+[Updater]
+Allow = 0
+1 = <appname>
+2 = <appversion>
+3 = http://
+4 = http://
+5 = http://
+6 = Update
+Language = 0
+RunProg = 
+RunProgs = 0
+Execdlls = 0
+[Languages]
+[Files/Dirs]
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\EpicAdventure\MAP.TXT
+1.2 KB
+TXT
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\EpicAdventure\Sprites.txt
+9.2 KB
+txt
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\license.txt
+34.3 KB
+txt
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\Splash.jpg
+171.4 KB
+jpg
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\USER MANUAL-INSTALLATION GUIDE.doc
+118 KB
+doc
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\USER MANUAL-INSTALLATION GUIDE.docx
+99.2 KB
+docx
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\USER MANUAL-INSTALLATION GUIDE.pdf
+232.2 KB
+pdf
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\USER MANUAL-INSTALLATION GUIDE.txt
+7 KB
+txt
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\Source Code.pas
+68.3 KB
+pas
+C:\Users\Sai\Desktop\Current Assignment\Software Major Work Theory\EPICADVENTURE\EpicAdventure\EA.exe
+44.5 KB
+exe
+[Licence_Begin]
+[Licence_End]
+[Registry]
+[Variables]
+[SCs]
+[IFP_End]
+[Serials]
+[Serials_End]
+[Commands]

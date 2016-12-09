@@ -1,0 +1,92 @@
+EPIC ADVENTURE – USER MANUAL/INSTALLATION GUIDE
+1. Installing the game
+   Minimum Requirements:
+* MS-Windows and 80286 or higher processors only. (Will NOT run on a 64-bit or greater processor, such as most editions of Windows Vista or newer)
+* Hard disk with at least 1 MB Free Space
+* 2MB of memory
+* EGA or greater graphics
+* Keyboard
+Simply Run Install.exe and select a folder where you would like to install Epic Adventure. 
+It is recommended that you place the folder either on your desktop or hard-drive's root directory (e.g. C:\EpicAdventure\ea.exe).
+
+If the installer does not run, copy the entire “EpicAdventure” folder to your computer, containing:
+* EA.exe (the game launcher)
+* Sprites.txt (the game’s sprite animations)
+* MAP.txt (the game’s overworld maps)
+* Other documents (Source Code.pas, gpl.txt, USER MANUAL-INSTALLATION GUIDE.doc/docx/txt/pdf)
+
+2. Launching the Game
+Open the game by double-clicking on EA.EXE from the EpicAdventure folder that was copied to your computer.
+The program’s menus are navigated by using the WASD keys. These correspond to the layout of the arrow-keys and are their equivalent:
+
+* W –UP
+* A – LEFT
+* S – DOWN
+* D – RIGHT
+Use the W and S keys to move the cursor in these menus and make your selection.
+Press Spacebar or Enter to confirm your selection from the menu options.
+
+3. Creating a new character
+When you select the option to create a new character, you will be guided throughout a step-by-step character creation process.
+At the end of this process, you will be given the option to randomly generate your characters “stats”. These stats are HP (Health Points), MP (Magic Points), and ATK (Attack Damage).
+As you play the game, you will be given the opportunity to increase these stats. This will also be reflected in your players overall “level”. You begin the game at level 3. Each time you level up, you can increase one stat of your choice. Different stats allow you to play the game in different ways.
+For more information on how these stats affect gameplay, see section 5 of this guide (Gameplay – Combat).
+
+4. Gameplay
+Gameplay consists of two aspects: the “Overworld” and “Combat”.
+The objective of the game is to reach the King in the final area, by progressing from one area of the overworld to the next. This usually achieved through combat.
+
+5. Gameplay - Overworld
+
+       After character creation, you will be brought to the overworld.
+When in the overworld, you control your character’s movement with the W,A,S,D keys. Their movements will be displayed in the Current Area Map. 
+Entering through empty spaces on the left or right of the Current Area Map will allow you to move from +one area to the next.
+Your current HP and MP are displayed in the Player Info section. If you are low on HP, walking around on the overworld can restore it. HP and MP can also be restored by sleeping, either by going back home and using the bed, or by using a tent after acquiring one.
+
+You can interact with objects and Non-Player Characters by moving your character to the same square as them.
+Some interactions will result in combat.
+
+6. Gameplay - Combat
+When you encounter an enemy, you will be brought to the combat screen.
+
+
+Your Level (LV.), HP and MP are on the left, and the enemies’ are on the right. Engaging in combat with an enemy several levels higher than you can often be difficult. In these situations, it is usually better to retreat, if possible!
+The “Retreat Bar” shows you if it is possible to retreat, with exclamation marks indicating that you cannot retreat.
+
+
+Combat is turn-based. When you enter combat, the enemy may sometimes attack you first.
+Select Attack to make your attack, and you will then be brought to the attack sub-menu.
+
+The Attack bar will increase and decrease automatically. If you make your attack when it is closer to the ‘!’, you will do more damage. Additionally, a bonus can be gained that does much more damage if the Attack Bar is touching the ‘!’. Furthermore, each time you attack, you have a 1/6 chance of scoring a critical hit, which can increase your attack damage as well.
+Make your attack by pressing ‘A’ for a melee attack, or if you have sufficient MP, ‘F’ to cast a more powerful fireball.
+Fireballs reduce your MP by 60. This can be restored back to its maximum value by sleeping.
+When you attack, your enemy’s HP will decrease by an amount, which is briefly displayed above their head. Then your enemy will attack you, and turn-based combat continues.
+If your HP is reduced to 0 from your enemy’s attacks, you will lose and be sent back home.
+If you reduce the enemy’s HP to 0, you will win the battle. Defeating enemies will gain you experience. The higher the level, the more experience you will gain. Additionally, if you cannot retreat from an enemy, they are likely to give you much more XP than those you can retreat from.
+
+
+At the end of combat, you may come across a Level up screen.
+This means you have gained sufficient experience to increase your level, and can select one stat to have increased.
+* HP: Increasing your HP increases the amount of damage you can take before you lose.
+* MP: Increasing your MP increases the number of fireballs you can cast in each battle.
+* ATK: Increasing your ATK increases the damage of BOTH your melee and fireball attacks. I.e., increasing ATK means your enemies will lose more HP with each attack.
+Levelling up and increasing your stats is essential to progress. If you are struggling to defeat the enemies needed to progress to the next area, try going back to previous areas and defeating slightly weaker enemies to gain more experience.
+
+7. Saving the Game
+You can save your game by pressing ‘1’ on the overworld. This will save your characters level, stats, and position on the map. When you restore your save file from the main menu, it will continue exactly from where you last saved.
+You are able to return to the main menu from the overworld and during combat by pressing the ‘Esc’ key. However, if you return to the main menu during combat, you will lose all progress since you last saved; so be careful!
+Please do not exit the game other than through the main menu.
+
+8. Gameplay Tips
+* If you are unable to find enemies close to your level to train against, try using the magic mirror in town, or a tent.
+* ‘SQUID’ is a good starting name for a character.
+
+9. Troubleshooting
+Upon executing ea.exe, you may encounter two runtime errors.
+* Runtime error 2 at 0001:00BB - Missing/corrupt "MAP.TXT" File; please re-install or restore the file by copying the MAP.TXT file from the installer folder.
+* Runtime error 2 at 0001:0151 - Missing/corrupt "Sprites.TXT" File; please re-install or restore the file by copying the Sprites.TXT file from the installer folder.
+It is recommended that you run the game from the EpicAdventure folder, which should be placed either on your desktop or hard-drive's root folder (e.g. C:\EpicAdventure\ea.exe)
+Additionally, the program cannot run on 64-bit systems. Please use an older system OR use a Virtual Machine to emulate a 32-bit system which can run the game.
+
+
+
